@@ -1,5 +1,6 @@
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity ^0.6.0;
+//SPDX-License-Identifier: GPL-0.3
+//Versão do compilador
+pragma solidity ^0.8.15;
 
 import "./Ownable.sol";
 

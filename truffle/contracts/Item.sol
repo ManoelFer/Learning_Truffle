@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity ^0.6.0;
+//SPDX-License-Identifier: GPL-0.3
+pragma solidity ^0.8.15;
 
 import "./ItemManager.sol";
 
@@ -17,7 +17,7 @@ contract Item {
         ItemManager _parentContract,
         uint256 _priceInWei,
         uint256 _index
-    ) public {
+    ) {
         priceInWei = _priceInWei;
         index = _index;
         parentContract = _parentContract;
